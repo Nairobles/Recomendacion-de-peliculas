@@ -116,7 +116,7 @@ Ingresamos la siguiente URL:
 https://proyecto-individual-1-epb0.onrender.com
 ```
 
-Y luego ejecutamos la consulta deseada:
+Y ejecutamos uno de los siguientes ejemplos:
 
 
 + /filmaciones_mes?mes=Enero
@@ -132,6 +132,8 @@ Y luego ejecutamos la consulta deseada:
 + /director?director=Christopher Nolan
 
 + /recomendacion?titulo=Iron Man
+
+*Nota: se pueden explorar distintos valores: en vez de Sabado, ingresar Lunes por ejemplo. Lo anterior es a modo de ejemplo*
 
 Un ejemplo de como se deberia ver:
 
