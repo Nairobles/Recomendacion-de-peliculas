@@ -42,7 +42,19 @@ El proceso ETL es fundamental para integrar datos de múltiples fuentes en un re
 ## Fast Api
 Ahora, utilizando *Fast Api*, vamos a disponibilizar los datos de la empresa a los usuarios para que puedan ser testeadas las operaciones deseadas.
 Para ello desarrollamos seis funciones que demuestren ser eficaces.
-Se pueden observar en el apartado de **funciones.py**
+
+Se pueden observar en el apartado de **funciones.py:**
++ def **cantidad_filmaciones_mes(*`Mes*`)**: Se ingresa un mes en idioma Español. Debe devolver la cantidad de películas que fueron estrenadas en el mes consultado en la totalidad del dataset.
+
++ def **cantidad_filmaciones_dia( *`Dia`* )**: Se ingresa un día en idioma Español. Debe devolver la cantidad de películas que fueron estrenadas en día consultado en la totalidad del dataset.
+
++ def **score_titulo( *`titulo_de_la_filmación`* )**: Se ingresa el título de una filmación esperando como respuesta el título, el año de estreno y el score.
+
++ def **votos_titulo( *`titulo_de_la_filmación`* )**: Se ingresa el título de una filmación esperando como respuesta el título, la cantidad de votos y el valor promedio de las votaciones. La misma variable deberá de contar con al menos 2000 valoraciones, caso contrario, debemos contar con un mensaje avisando que no cumple esta condición y que por ende, no se devuelve ningun valor.
+
++ def **get_actor( *`nombre_actor`* )**: Se ingresa el nombre de un actor que se encuentre dentro de un dataset debiendo devolver el éxito del mismo medido a través del retorno. Además, la cantidad de películas que en las que ha participado y el promedio de retorno. **La definición no deberá considerar directores.**
+
++ def **get_director( *`nombre_director`* )**: Se ingresa el nombre de un director que se encuentre dentro de un dataset debiendo devolver el éxito del mismo medido a través del retorno. Además, deberá devolver el nombre de cada película con la fecha de lanzamiento, retorno individual, costo y ganancia de la misma.
 
 ## EDA
 (Exploratory Data Analysis) Es un proceso en el análisis de datos que implica explorar y analizar datasets para descubrir patrones, detectar anomalías, probar hipótesis y resumir las principales características. Se utilizan estadísticas descriptivas y visualizaciones para entender mejor los datos antes de aplicar modelos más avanzados o tomar decisiones.
@@ -51,6 +63,11 @@ En este caso la idea principal fue identificar las posibles relaciones entre var
 Algunos ejemplos:
 
 **Matriz de correlacion**
+
+*Es una tabla que muestra los coeficientes de correlación entre varias variables en un dataset. Estos coeficientes indican la fuerza y dirección de la relación entre dos variables, con valores que van de -1 (correlación negativa perfecta) a 1 (correlación positiva perfecta), y 0 indicando ninguna correlación. Es útil para identificar relaciones entre variables.*
+
+![image](https://github.com/user-attachments/assets/6a0994d9-8538-43a3-a8a8-2d892fb9d647)
+
 
 
 
