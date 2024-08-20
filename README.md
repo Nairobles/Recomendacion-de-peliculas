@@ -25,6 +25,7 @@ Para llevar adelante esta tarea utilizaremos las siguientes herramientas:
 - [FastAPI](#fastapi)
 - [ETL](#etl)
 - [EDA](#eda)
+- [Deployment](#deployment)
 
 
 ## ETL
