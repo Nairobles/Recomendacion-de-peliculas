@@ -109,13 +109,35 @@ Para crear un sistema de recomendacion mas sofisticado habria que trabajar con d
 Para realizar esta tarea utilizaremos [Render](https://render.com/).Una plataforma que simplifica el proceso de deployment al automatizar tareas como la configuración del servidor, el manejo de certificados SSL y el despliegue continuo. Con Render, puedes desplegar fácilmente tu aplicación web, API o servicio con unos pocos clics o comandos, haciendo que esté disponible en la web sin necesidad de gestionar manualmente la infraestructura subyacente.
 
 Aqui algunos ejemplos para que el usuario pueda testear:
-![image](https://github.com/user-attachments/assets/d11bfbae-bc96-4d51-a96c-5ef73fa55d8d)
 
-+ filmaciones_mes?mes=Enero
-+ # http://localhost:8000/filmaciones_dia?dia=Sabado
-+ # http://localhost:8000/score_titulo?titulo=Forrest Gump
-+ # http://localhost:8000/votos_titulo?titulo=Toy Story
-+ 
+Ingresamos la siguiente URL:
+```
+https://proyecto-individual-1-e0pe.onrender.com/
+```
+
+Y luego ejecutamos la consulta deseada:
+
+
++filmaciones_mes?mes=Enero
+
++filmaciones_dia?dia=Sabado
+
++ score_titulo?titulo=Forrest Gump
+
++ votos_titulo?titulo=Toy Story
+
++ actor?actor=Tom Hanks
+
++ director?director=Christopher Nolan
+
++ recomendacion?titulo=Iron Man
+
+Un ejemplo de como se debria ver:
+
+![image](https://github.com/user-attachments/assets/a2ef451d-dd38-4608-b17d-783308de0a8e)
+
+![image](https://github.com/user-attachments/assets/f940972d-46f7-4c1a-b560-e12ba841cbb6)
+
 
 
 
