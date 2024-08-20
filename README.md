@@ -113,7 +113,7 @@ Aqui algunos ejemplos para que el usuario pueda testear:
 
 Ingresamos la siguiente URL:
 ```
-https://proyecto-individual-1-e0pe.onrender.com/
+https://proyecto-individual-1-epb0.onrender.com
 ```
 
 Y luego ejecutamos la consulta deseada:
@@ -135,7 +135,8 @@ Y luego ejecutamos la consulta deseada:
 
 Un ejemplo de como se deberia ver:
 
-![image](https://github.com/user-attachments/assets/a2ef451d-dd38-4608-b17d-783308de0a8e)
+![image](https://github.com/user-attachments/assets/07d383c7-8e16-4eeb-a69b-492957db452a)
+
 
 ![image](https://github.com/user-attachments/assets/f940972d-46f7-4c1a-b560-e12ba841cbb6)
 
