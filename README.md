@@ -5,7 +5,7 @@
 
 # Introducion
 
-El objetivo de este trabajo es simular un ambiente de trabajo donde cumplimos el rol de **Data Scientist** dentro de una start-up que provee servicios de agregación de plataformas de streaming.
+El objetivo del presente proyecto es simular un ambiente de trabajo donde cumplimos el rol de **Data Scientist** dentro de una start-up que provee servicios de agregación de plataformas de streaming.
 La misma nos solicita construir un modelo de Machine Learning(ML) que ponga en marcha un sistema de recomendacion de peliculas totalmente nuevo.
 Para lograr este objetivo debemos combinar un trabajo de **Data Engineer** que posteriormente nos permita construir un **Producto Viable Minimo(MVP)** de un sistema de recomendacion de peliculas.
 
