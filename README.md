@@ -22,6 +22,7 @@ Para llevar adelante esta tarea utilizaremos las siguientes herramientas:
 
 ## Tabla de contenidos
 - [Introducción](#introducción)
+- [Fast Api](#fastapi)
 - [ETL](#etl)
 - [EDA](#eda)
 
