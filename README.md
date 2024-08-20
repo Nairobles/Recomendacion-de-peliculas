@@ -21,5 +21,36 @@ Para llevar adelante esta tarea utilizaremos las siguientes herramientas:
 * **Render:** es una plataforma de alojamiento en la nube que permite desplegar aplicaciones web, APIs, bases de datos y otros servicios de manera sencilla y escalable.
 
 ## Tabla de contenidos
+- [Introducción](#introducción)
+
+
+## ETL
+
+(Extract, Transform, Load) es un proceso en la gestión de datos que implica tres etapas clave:
+-*Extract (Extracción)*: Se extraen datos de diferentes fuentes, como bases de datos, archivos, APIs, etc.
+En este caso trabajamos con documentos CSV que se pueden descargar aqui:
+- + [Dataset](https://drive.google.com/drive/folders/1X_LdCoGTHJDbD28_dJTxaD4fVuQC9Wt5?usp=drive_link)
+
+-*Transform (Transformación)*: Los datos extraídos se limpian, se transforman y se estructuran para cumplir con los requisitos de negocio o de almacenamiento.
+Para esto utilizaremos principalmente la biblioteca [Pandas](https://pandas.pydata.org/docs/user_guide/10min.html) que nos facilita el trabajo con CSVs.
+
+-*Load (Carga)*: Los datos transformados se cargan en un sistema de destino, como un data warehouse, base de datos, o cualquier sistema de almacenamiento de datos.
+En este caso, ambos datasets fueron unificados y llevados al archivo **'2.base_de_datos'**
+
+El proceso ETL es fundamental para integrar datos de múltiples fuentes en un repositorio central, facilitando análisis, reportes y toma de decisiones basadas en datos.
+
+## Fast Api
+Ahora, utilizando *Fast Api*, vamos a disponibilizar los datos de la empresa a los usuarios para que puedan ser testeadas las operaciones deseadas.
+Para ello desarrollamos seis funciones que demuestren ser eficaces.
+Se pueden observar en el apartado de **funciones.py**
+
+## EDA
+(Exploratory Data Analysis) Es un proceso en el análisis de datos que implica explorar y analizar datasets para descubrir patrones, detectar anomalías, probar hipótesis y resumir las principales características. Se utilizan estadísticas descriptivas y visualizaciones para entender mejor los datos antes de aplicar modelos más avanzados o tomar decisiones.
+
+En este caso la idea principal fue identificar las posibles relaciones entre variables y la deteccion de outliers.
+Algunos ejemplos:
+
+**Matriz de correlacion**
+
 
 
