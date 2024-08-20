@@ -119,19 +119,19 @@ https://proyecto-individual-1-epb0.onrender.com
 Y luego ejecutamos la consulta deseada:
 
 
-+ filmaciones_mes?mes=Enero
++ /filmaciones_mes?mes=Enero
 
-+ filmaciones_dia?dia=Sabado
++ /filmaciones_dia?dia=Sabado
 
-+ score_titulo?titulo=Forrest Gump
++ /score_titulo?titulo=Forrest Gump
 
-+ votos_titulo?titulo=Toy Story
++ /votos_titulo?titulo=Toy Story
 
-+ actor?actor=Tom Hanks
++ /actor?actor=Tom Hanks
 
-+ director?director=Christopher Nolan
++ /director?director=Christopher Nolan
 
-+ recomendacion?titulo=Iron Man
++ /recomendacion?titulo=Iron Man
 
 Un ejemplo de como se deberia ver:
 
