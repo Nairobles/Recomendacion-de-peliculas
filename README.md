@@ -42,7 +42,7 @@ En este caso, ambos datasets fueron unificados y llevados al archivo **'2.base_d
 
 El proceso ETL es fundamental para integrar datos de múltiples fuentes en un repositorio central, facilitando análisis, reportes y toma de decisiones basadas en datos.
 
-## Fast Api
+## FastAPI
 Ahora, utilizando *Fast Api*, vamos a disponibilizar los datos de la empresa a los usuarios para que puedan ser testeadas las operaciones deseadas.
 Para ello desarrollamos seis funciones que demuestren ser eficaces.
 
