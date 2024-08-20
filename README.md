@@ -1,5 +1,4 @@
-# Proyecto Indiviual 1: 
-**Sistema de recomendacion de peliculas**
+# Proyecto Indiviual 1: Sistema de recomendacion de peliculas
 
 ![image](https://github.com/user-attachments/assets/de28fa21-e50b-4749-abfc-04273505e982)
 
