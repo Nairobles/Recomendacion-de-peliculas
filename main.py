@@ -57,3 +57,8 @@ async def get_director(director:str):
 async def recomendacion(titulo:str):
     respuesta = f.recomendacion(titulo)
     return respuesta
+
+#Cambia el puerto para que corra en Render
+if _name_ == "_main_":
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port, reload=True)
