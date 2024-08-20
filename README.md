@@ -22,6 +22,8 @@ Para llevar adelante esta tarea utilizaremos las siguientes herramientas:
 
 ## Tabla de contenidos
 - [Introducción](#introducción)
+- [ETL](#etl)
+- [EDA](#eda)
 
 
 ## ETL
@@ -67,6 +69,38 @@ Algunos ejemplos:
 *Es una tabla que muestra los coeficientes de correlación entre varias variables en un dataset. Estos coeficientes indican la fuerza y dirección de la relación entre dos variables, con valores que van de -1 (correlación negativa perfecta) a 1 (correlación positiva perfecta), y 0 indicando ninguna correlación. Es útil para identificar relaciones entre variables.*
 
 ![image](https://github.com/user-attachments/assets/6a0994d9-8538-43a3-a8a8-2d892fb9d647)
+
+La relacion entre **budget** (presupuesto),**revenue**(ganancia) y **return** la vamos a obviar porque la ultima variable fue creada por nosotros en el proceso de transformación.
+
+Lo que si resulta interesante de esta matriz es que hay un relacion fuerte entre las variables **revenue** y **vote_count** (0.81)
+Esto nos podria demostrar una estrecha relacion entre la cantidad de votos que tiene una pelicula y las ganancias que genera una pelicula. Tanto para bien o para mal, mientras mas votos/opiniones haya sobre una pelicula, mayor o menor sera su ganancia.
+
+Lo mismo sucede con la relacion entre **budget** y **vote_count** (0.68), mostrando tambien que los proyectos que mas opiniones han recibido son los que mas cantidad de presupuesto recibiran para una proxima saga, por ejemplo. 
+
+**Nube de palabras**
+
+*Es una representación visual de la frecuencia de palabras en un texto. Las palabras que aparecen con mayor frecuencia se muestran más grandes y en negrita, mientras que las menos comunes se muestran más pequeñas. Es útil para identificar rápidamente los términos más importantes o recurrentes en un conjunto de datos textuales.*
+
+![image](https://github.com/user-attachments/assets/38cb6af3-a05c-465b-bea6-adc05163c702)
+
+La nube de la palabras nos ayudara para poder recomendar peliculas de acuerdo a las palabras mas frecuentes que aparecen en los titulos.
+
+**Grafico de barras**
+
+![image](https://github.com/user-attachments/assets/22dda823-2656-4189-af90-650a26f48bee)
+
+Un grafico de barras nos mostrara más especificamente la cantidad de veces que aparece cada palabra. 
+
+Esta información nos permite entender mejor cuales son los titulos mas consumidos popularmente.
+
++ Ambos analisis nos pueden ser de utilidad ya que basandonos en la popularidad **popularity** podriamos encontrarnos con varios inconvenientes al ser una categoria que cuenta con muchos outliers.
+
+![image](https://github.com/user-attachments/assets/c22c89bd-fe74-4b75-9b02-a7f81579be20)
+
+Para crear un sistema de recomendacion mas sofisticado habria que trabajar con datos mas certeros.
+
+
+
 
 
 
