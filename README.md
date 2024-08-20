@@ -119,9 +119,9 @@ https://proyecto-individual-1-e0pe.onrender.com/
 Y luego ejecutamos la consulta deseada:
 
 
-+filmaciones_mes?mes=Enero
++ filmaciones_mes?mes=Enero
 
-+filmaciones_dia?dia=Sabado
++ filmaciones_dia?dia=Sabado
 
 + score_titulo?titulo=Forrest Gump
 
