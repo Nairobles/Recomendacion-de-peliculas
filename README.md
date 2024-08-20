@@ -3,7 +3,7 @@
 ![image](https://github.com/user-attachments/assets/de28fa21-e50b-4749-abfc-04273505e982)
 
 
-# Introducion
+# Introducción
 
 El objetivo del presente proyecto es simular un ambiente de trabajo donde cumplimos el rol de **Data Scientist** dentro de una start-up que provee servicios de agregación de plataformas de streaming.
 La misma nos solicita construir un modelo de Machine Learning(ML) que ponga en marcha un sistema de recomendacion de peliculas totalmente nuevo.
@@ -103,7 +103,7 @@ Esta información nos permite entender mejor cuales son los titulos mas consumid
 
 Para crear un sistema de recomendacion mas sofisticado habria que trabajar con datos mas certeros.
 
-#Deployment
+## Deployment
 
 *Deployment (o despliegue) es el proceso de poner una aplicación o servicio en un entorno de producción, donde está accesible para los usuarios finales. Esto implica mover el código desde un entorno de desarrollo o pruebas a un servidor o plataforma donde puede ser utilizado en vivo.*
 
