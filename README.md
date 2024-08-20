@@ -14,8 +14,12 @@ su viabilidad en el mercado y obtener retroalimentación de los usuarios lo ante
 La idea detrás de este procedimiento es lanzar algo lo suficientemente funcional como para que los usuarios puedan interactuar con él y proporcionar comentarios y datos de uso, pero sin gastar recursos excesivos en el desarrollo de características complejas que pueden no ser necesarias o relevantes para los usuarios.*
 
 Para llevar adelante esta tarea utilizaremos las siguientes herramientas:
-* *Visual Studio Code *
-* *Fast Api*
-* *Render*
+* **Visual Studio Code(VS Code):** es un editor de código fuente ligero, multiplataforma y altamente personalizable, desarrollado por Microsoft. Es popular entre desarrolladores debido a sus características avanzadas, como la depuración integrada, el control de versiones (Git), la finalización de código inteligente, y su amplia gama de extensiones que permiten soporte para múltiples lenguajes de programación y herramientas de desarrollo. Además, es gratuito y de código abierto.
+
+* **Fast Api:** es un framework web moderno y de alto rendimiento para construir APIs en Python. Es conocido por su rapidez y eficiencia, tanto en términos de tiempo de desarrollo como en rendimiento. FastAPI utiliza tipado basado en anotaciones de Python para generar automáticamente la documentación de la API (como OpenAPI y Swagger UI), lo que facilita el desarrollo y la comprensión del código. También es compatible con la asincronía, lo que lo hace ideal para aplicaciones que requieren manejar múltiples solicitudes simultáneamente de manera eficiente. Es ampliamente utilizado para crear APIs RESTful y microservicios.
+
+* **Render:** es una plataforma de alojamiento en la nube que permite desplegar aplicaciones web, APIs, bases de datos y otros servicios de manera sencilla y escalable.
+
+## Tabla de contenidos
 
 
