@@ -44,7 +44,7 @@ El proceso ETL es fundamental para integrar datos de múltiples fuentes en un re
 
 ## FastAPI
 Ahora, utilizando *Fast Api*, vamos a disponibilizar los datos de la empresa a los usuarios para que puedan ser testeadas las operaciones deseadas.
-Para ello desarrollamos seis funciones que demuestren ser eficaces.
+Para ello desarrollamos seis funciones que demuestren ser eficaces junto con el sistema de recomendacion:
 
 Se pueden observar en el apartado de **funciones.py:**
 + def **cantidad_filmaciones_mes(*`Mes*`)**: Se ingresa un mes en idioma Español. Debe devolver la cantidad de películas que fueron estrenadas en el mes consultado en la totalidad del dataset.
@@ -58,6 +58,8 @@ Se pueden observar en el apartado de **funciones.py:**
 + def **get_actor( *`nombre_actor`* )**: Se ingresa el nombre de un actor que se encuentre dentro de un dataset debiendo devolver el éxito del mismo medido a través del retorno. Además, la cantidad de películas que en las que ha participado y el promedio de retorno. **La definición no deberá considerar directores.**
 
 + def **get_director( *`nombre_director`* )**: Se ingresa el nombre de un director que se encuentre dentro de un dataset debiendo devolver el éxito del mismo medido a través del retorno. Además, deberá devolver el nombre de cada película con la fecha de lanzamiento, retorno individual, costo y ganancia de la misma.
+
++ def **recomendacion( *`titulo`* )**: Se ingresa el nombre de una película y te recomienda las similares en una lista de 5 valores.
 
 ## EDA
 (Exploratory Data Analysis) Es un proceso en el análisis de datos que implica explorar y analizar datasets para descubrir patrones, detectar anomalías, probar hipótesis y resumir las principales características. Se utilizan estadísticas descriptivas y visualizaciones para entender mejor los datos antes de aplicar modelos más avanzados o tomar decisiones.
@@ -100,6 +102,20 @@ Esta información nos permite entender mejor cuales son los titulos mas consumid
 
 Para crear un sistema de recomendacion mas sofisticado habria que trabajar con datos mas certeros.
 
+#Deployment
+
+*Deployment (o despliegue) es el proceso de poner una aplicación o servicio en un entorno de producción, donde está accesible para los usuarios finales. Esto implica mover el código desde un entorno de desarrollo o pruebas a un servidor o plataforma donde puede ser utilizado en vivo.*
+
+Para realizar esta tarea utilizaremos [Render](https://render.com/).Una plataforma que simplifica el proceso de deployment al automatizar tareas como la configuración del servidor, el manejo de certificados SSL y el despliegue continuo. Con Render, puedes desplegar fácilmente tu aplicación web, API o servicio con unos pocos clics o comandos, haciendo que esté disponible en la web sin necesidad de gestionar manualmente la infraestructura subyacente.
+
+Aqui algunos ejemplos para que el usuario pueda testear:
+![image](https://github.com/user-attachments/assets/d11bfbae-bc96-4d51-a96c-5ef73fa55d8d)
+
++ filmaciones_mes?mes=Enero
++ # http://localhost:8000/filmaciones_dia?dia=Sabado
++ # http://localhost:8000/score_titulo?titulo=Forrest Gump
++ # http://localhost:8000/votos_titulo?titulo=Toy Story
++ 
 
 
 
