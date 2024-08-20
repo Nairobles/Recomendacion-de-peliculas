@@ -133,11 +133,13 @@ Y luego ejecutamos la consulta deseada:
 
 + recomendacion?titulo=Iron Man
 
-Un ejemplo de como se debria ver:
+Un ejemplo de como se deberia ver:
 
 ![image](https://github.com/user-attachments/assets/a2ef451d-dd38-4608-b17d-783308de0a8e)
 
 ![image](https://github.com/user-attachments/assets/f940972d-46f7-4c1a-b560-e12ba841cbb6)
+
+**¡Espero te haya sido de utilidad!**
 
 
 
